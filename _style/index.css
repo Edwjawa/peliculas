@@ -44,16 +44,12 @@ footer h3{
 
 header{
     background:  #ff9d00;
-    /* background-image: url(imag/paticas.png); */
-    /* align-items: center; */
     padding: 0px;
-    /* border-radius: ; */
     
 }
 
 header div a img{
     width: 100px;
-      
 }
 
 
@@ -62,8 +58,6 @@ h1{
     margin-top: 25px;
     margin-left: 10px;
     color:#204c4c
-    /* justify-content: center; */
-    /* align-content: center; */
 }
 
 
@@ -72,7 +66,7 @@ h2{
     font-size: 20px;
     margin-top: 15px;
     margin-left: 75px;
-    /* justify-content: center; */
+    
 }
 
 
@@ -100,22 +94,19 @@ li a{
 }
 
 li a:hover:not(.active) {
-    /* background-color: ; */
     color: #2f4858;
     
    
 }
 
-ul {list-style-type: none;
+ul {
+    list-style-type: none;
     margin:0;
     padding: 0;
     overflow: hidden;
     background-color:#8abc40;
     display:flex;
     justify-content: center;
-    
-    
-    /* border-radius: 10%; */
 }
 
 
@@ -127,7 +118,6 @@ ul {list-style-type: none;
 
 
 .flex-divcontainer {
-
     width: 80%;
     display: flex; 
     flex-direction: column;
@@ -141,30 +131,16 @@ ul {list-style-type: none;
     justify-content: space-around;
 }
 
-/* 
-.flex-maincontainer{
-    width: 100%; 
-    display: flex;
-    flex-direction: row;
-    
-
-} 
- */
-
-
 .flex-mylist{
     display:flex;
     justify-content: space-between;
-    /* align-items: ; */
+
 }
 
 
 
 .flex-sectioncontainer{
-    /* width: 80%; */
     display: flex;
-    /* flex-direction: row; */
-    /* align-items: ; */
     align-items: stretch;
     justify-content: space-evenly;
     flex-wrap: nowrap;
@@ -176,21 +152,14 @@ ul {list-style-type: none;
     background-color: #ffe285;
     padding: 13px;
     display: flex;
-    /* flex-wrap: wrap; */
-    /* align-items: flex-end; */
-    /* align-items: center; */
     justify-content: center;
     border-radius: 10px;
     border:1px solid grey;
 
 }
 
-.myborder{
-    border-radius: 4%;
-}
 
 .mybuttonr{
-    /* width: 15%; */
     padding: 5px;
     margin: 10px 15px 10px auto;
     border-style:none;
@@ -205,7 +174,6 @@ ul {list-style-type: none;
 }
 
 .mybuttons{
-    /* width: 15%; */
     padding: 5px;
     margin: 10px 15px 10px auto;
     border-style:none;
@@ -220,80 +188,3 @@ ul {list-style-type: none;
     color:#2f4858;
     
 }
-
-.mydiv{
-    
-    text-align: justify;
-    width: 65%;
-    
-}
-
-
-.myform{
-    background-color:#8abc40 ;
-    display: flex;
-    flex-direction: column;
-    align-items: initial;
-    margin: 10px 5px;
-    color: black;
-    border-radius: 4%;
-
-}
-
-.mylabel{
-    margin: 10px 25px;
-    display: flex;
-    flex-direction: row;
-    align-content:center;
-}
-
-.mylabel2{
-    margin: 10px 25px;
-    display: grid;
-    grid-template-columns: 30% 70%;
-    
-
-
-}
-
-.mynormalinput{
-    margin-right:0px;
-    align-items: flex-end;
-    
-}
-
-
-.mysmallinput{
-    width: 15%;
-   
-}
-
-.myval{
-    
-    width: 35%;
-    padding: 5px;
-    margin: 15px auto;
-    border-style:none;
-    border-radius: 12%;
-
-}
-
-
-
-
-.principal{
-    display:flex;
-    justify-content: center;
-}
-
-/* 
-section a{
-    display: flex;
-    align-items: stretch;
-} */
-/* 
-section img{
-    width: 80%;
-    height: 50%;
-    flex-grow: 1;
-} */
